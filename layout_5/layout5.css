@@ -1,0 +1,63 @@
+body{
+    display: grid;
+    gap: 25px;
+    margin: 0% 0%;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.blog_logo-nav{
+    display: grid;
+    grid-template-rows: 1fr 50%;
+    gap: 5px;
+    background-color: white;
+    height: 120px;
+}
+.blog_logo{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: gainsboro;
+}
+.blog_nav{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: gainsboro;
+}
+
+.blog_feature-column{
+    display: grid;
+    grid-template-rows: 1fr 50%;
+    gap: 15px;
+    background-color: white;
+    height: 380px;
+}
+.blog_column{
+    display: flex;
+    gap: 25px;
+    background-color: white;
+}
+.column1{
+    background-color: gainsboro;
+    width: 33.33%;
+}
+.column2{
+    background-color: gainsboro;
+    width: 33.33%;
+}
+.column3{
+    background-color: gainsboro;
+    width: 33.33%;
+}
+
+.blog_feature{
+    background-color: gainsboro;
+}
+
+.blog_footer{
+    background-color: gainsboro;
+    height: 90px;
+    margin-bottom: -2%;
+}

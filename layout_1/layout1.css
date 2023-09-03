@@ -1,0 +1,32 @@
+body{
+    display: grid;
+    grid-row: 20% 60% 20%;
+    gap: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 24px;
+    flex-direction: column;
+}
+
+.body .blog_header{
+    background-color:rgb(182, 192, 192);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.blog_body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    height: 400px;
+    background-color: white;
+}
+
+.blog_footer{
+    background-color:rgb(182, 192, 192);
+    height: 100px;
+}
+
+.blog_body div{
+    background-color:rgb(182, 192, 192);
+}

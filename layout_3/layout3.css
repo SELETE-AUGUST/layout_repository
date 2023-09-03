@@ -1,0 +1,59 @@
+body{
+    display: grid;
+    gap: 5px;
+    color: green;
+    margin: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+header{
+    height: 70px;
+    border-style: double;
+    border-color: rgba(146, 142, 142, 0.801);
+    background-color: white;
+}
+
+.nav_menu{
+    height: 70px;
+    border-style: double;
+    border-color: rgb(146, 142, 142);
+    background-color: white; 
+}
+
+.body{
+    display: flex;
+    gap: 10px;
+    height: 370px;
+    background-color: white;
+}
+
+.content_left{
+    width: 20%;
+    border-style: double;
+    border-color: rgb(146, 142, 142);
+    background-color: white;
+}
+
+.main_content{
+    width: 60%;
+    border-style: double;
+    border-color: rgb(146, 142, 142);
+    background-color: white;
+}
+
+.content_right{
+    width: 20%;
+    border-style: double;
+    border-color: rgb(146, 142, 142);
+    background-color: white;
+}
+
+
+footer{
+    height: 70px;
+    border-style: double;
+    border-color: rgb(146, 142, 142);
+    background-color: white;
+}
